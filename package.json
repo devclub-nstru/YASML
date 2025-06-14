@@ -1,0 +1,30 @@
+{
+  "name": "yasml",
+  "version": "1.0.0",
+  "description": "yet another state management library",
+  "homepage": "https://github.com/devclub-nstru/YASML#readme",
+  "bugs": {
+    "url": "https://github.com/devclub-nstru/YASML/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devclub-nstru/YASML.git"
+  },
+  "license": "ISC",
+  "author": "ved",
+  "type": "commonjs",
+  "main": "index.ts",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6"
+  }
+}
