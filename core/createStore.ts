@@ -10,7 +10,7 @@ export type StateCreator<T> = (
       replace?: boolean
     ) => void;
     subscribe: (listener: () => void) => () => void;
-  }
+  } 
   
   export function createStore<T>(createState: StateCreator<T>): Store<T> {
     let state: T;
