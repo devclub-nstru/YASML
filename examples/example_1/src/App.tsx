@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '4rem' }}>
-      <h1>Custom Zustand-Like Store</h1>
+      <h1>YASML</h1>
       <h2>{count}</h2>
       <button onClick={increment}>+1</button>
       <button onClick={decrement}>-1</button>
